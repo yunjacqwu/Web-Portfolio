@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate on Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center">
+        <div class="container" data-aos="fade-up">
+            <img src="image/DSC05890.jpg" alt="Profile" class="profile-img rounded-circle mb-4">
+            <h1 class="display-4 fw-bold">Febriansyah</h1>
+            <p class="lead">Web Developer & UI/UX Designer</p>
+            <div class="social-icons mt-4">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="#about" class="btn btn-light btn-lg mt-4">Learn More <i class="fas fa-arrow-down ms-2"></i></a>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="About" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3>Professional Web Developer</h3>
+                    <p class="text-muted">With over 5 years of experience in web development and design</p>
+                    <p>Saya memulai karir sebagai junior web developer, berfokus pada pembuatan tampilan antarmuka menggunakan HTML, CSS, dan JavaScript. Seiring waktu, saya memperdalam keahlian di bidang pengembangan backend menggunakan PHP dan MySQL, serta mengintegrasikan berbagai teknologi modern seperti Bootstrap dan jQuery.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <p><strong>Birthday:</strong> 19 February 2004</p>
+                            <p><strong>City:</strong> Jakarta Selatan, Indonesia</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Degree:</strong> Master</p>
+                            <p><strong>Email:</strong> masfebriansyah2004@gmail.com</p>
+                        </div>
+                    </div>
+                    <p>Saya selalu terbuka untuk tantangan baru dan kolaborasi dalam proyek-proyek digital yang inovatif. Jika Anda membutuhkan pengembangan website yang profesional dan berorientasi pada hasil, jangan ragu untuk menghubungi saya.</p>
+                    <a href="#" class="btn btn-secondary mt-3">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">My Skills</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between skill-name">
+                            <span>HTML</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between skill-name">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between skill-name">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between skill-name">
+                            <span>PHP</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between skill-name">
+                            <span>WordPress</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between skill-name">
+                            <span>Photoshop</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">My Portfolio</h2>
+            <div class="text-center mb-5" data-aos="fade-up">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-light active" data-filter="all">All</button>
+                    <button type="button" class="btn btn-outline-light" data-filter="web">Web</button>
+                    <button type="button" class="btn btn-outline-light" data-filter="app">App</button>
+                    <button type="button" class="btn btn-outline-light" data-filter="design">Design</button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 1" class="img-fluid portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h4>Web Project 1</h4>
+                            <p>Website Development</p>
+                            <a href="#" class="btn btn-light mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-item" data-category="app">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 2" class="img-fluid portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h4>App Project</h4>
+                            <p>Mobile Application</p>
+                            <a href="#" class="btn btn-light mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-item" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 3" class="img-fluid portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h4>Design Project</h4>
+                            <p>UI/UX Design</p>
+                            <a href="#" class="btn btn-light mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-item" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 4" class="img-fluid portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h4>Web Project 2</h4>
+                            <p>E-commerce Website</p>
+                            <a href="#" class="btn btn-light mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-item" data-category="app">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 5" class="img-fluid portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h4>App Project 2</h4>
+                            <p>Android Application</p>
+                            <a href="#" class="btn btn-light mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-item" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project 6" class="img-fluid portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h4>Design Project 2</h4>
+                            <p>Logo Design</p>
+                            <a href="#" class="btn btn-light mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info text-center">
+                        <div class="contact-icon mx-auto">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Jakarta Selatan, Indonesia</p>
+                    </div>
+                    
+                    <div class="contact-info text-center">
+                        <div class="contact-icon mx-auto">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>masfebriansyah2004@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-info text-center">
+                        <div class="contact-icon mx-auto">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4>Call</h4>
+                        <p>08773873816</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7" data-aos="fade-left">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <h3>Febriansyah</h3>
+            <p class="mb-4">Professional Web Developer & UI/UX Designer</p>
+            <div class="social-icons mb-4">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="mb-2">&copy; Copyright <strong>MyPortfolio</strong>. All Rights Reserved</p>
+            <p>Designed by <a href="#" class="text-primary">Febriansyah</a></p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Animate on Scroll JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Back to top button
+        const backToTopButton = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('active');
+            } else {
+                backToTopButton.classList.remove('active');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Portfolio filter
+        const filterButtons = document.querySelectorAll('[data-filter]');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                const filterValue = this.getAttribute('data-filter');
+                
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
